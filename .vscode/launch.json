@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+      {
+        "name": "Run Program",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "/workspaces/soilder/a.out",
+        "args": [],
+        "cwd": "/workspaces/soilder"
+      }
+    ]
+  }
