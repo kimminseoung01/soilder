@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Windows API Program",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-mwindows",
+          "${file}",
+          "-o",
+          "${fileDirname}/out.exe"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
